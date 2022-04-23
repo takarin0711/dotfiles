@@ -13,6 +13,12 @@ export HISTFILESIZE=10000
 #grepで一致した文字列の色を変える設定
 export GREP_OPTIONS='--color=always'
 
+# gsedを有効化
+export PATH="/usr/local/opt/gnu-sed/libexec/gnubin/:$PATH"
+
+# gawkを有効化
+export PATH="/usr/local/opt/gawk/bin/:$PATH"
+
 #locatedbを更新
 alias updatedb='sudo /usr/libexec/locate.updatedb'
 

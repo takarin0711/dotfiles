@@ -11,6 +11,12 @@ export LSCOLORS=gxfxcxdxbxegedabagacad
 #grepで一致した文字列の色を変える設定
 export GREP_OPTIONS='--color=auto'
 
+# gsedを有効化
+export PATH="/usr/local/opt/gnu-sed/libexec/gnubin/:$PATH"
+
+# gawkを有効化
+export PATH="/usr/local/opt/gawk/bin/:$PATH"
+
 # ヒストリの設定
 HISTFILE=~/.zsh_history
 HISTSIZE=30000
