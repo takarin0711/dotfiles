@@ -49,7 +49,7 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # コマンドのスペルを訂正
-setopt correct
+setopt nocorrect
 # ビープ音を鳴らさない
 setopt no_beep
 # パスの最後のスラッシュを削除しない
