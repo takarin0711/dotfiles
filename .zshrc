@@ -3,6 +3,9 @@ alias ll='ls -l'
 alias vi='vim'
 alias updatedb='sudo /usr/libexec/locate.updatedb'
 
+# zoxide設定
+eval "$(zoxide init zsh)"
+
 # 環境変数
 export LANG=ja_JP.UTF-8
 export CLICOLOR=1
